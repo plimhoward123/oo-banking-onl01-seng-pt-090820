@@ -17,9 +17,9 @@ class Transfer
     if (self.valid? && @sender.balance > @amount)
       @receiver.balance += @amount
       @sender.balance -= @amount
-      self.status = "complete"
+      @status = "complete"
    else
-     self.stats = "rejected"
+     @stats = "rejected"
    end
   end
 end
