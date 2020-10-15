@@ -17,4 +17,5 @@ class BankAccount
   end
   def valid?
     return true if (@status == "true")
+  end
 end
