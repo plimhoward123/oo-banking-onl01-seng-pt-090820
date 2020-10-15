@@ -18,4 +18,5 @@ class Transfer
       @reciver.balance += @amount
       @sender.balance -= @amount
     end
+  end
 end
