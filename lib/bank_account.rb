@@ -16,6 +16,6 @@ class BankAccount
     "Your balance is $#{@balance}."
   end
   def valid?
-    return true if (@status == "true")
+    return if (@status == "true")
   end
 end
